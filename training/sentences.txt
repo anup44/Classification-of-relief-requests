@@ -1,0 +1,54 @@
+0,I need daily rations in Attur
+0,Give rice, dal oil
+0,people are hungary 
+0,provide rations for 6 people for 10 days
+0,Need prepared food for 20 people in slum
+0,Need groceries for a family in quarantine
+0,my sugar, eggs and milk are over. I have small chidren. 
+0,Need food packets for 20 people
+0,I want bread and rice for my home
+0,Food exhausted in public canteen. need supplies
+0,cafeteria ran out of ration.
+0,we are not able to serve everyone in the canteen. Requesting rice and wheat.
+0,mess hall is not able to fullfil requirements of the locality.
+0,stock in our restaurant is stale. requesting fresh grains.
+1,Two people suffering from fever and cold 
+1,Pregnant lady needs help
+1,I need to take my father to hospital for dialysis. Please arrange transport.
+1,Equipment required at hospital
+1,people need mask and sanitizers
+1,Need an ambulance urgently
+1,An old man needs doctor
+1,accident in the area need doctor
+1,arm broken need to go to hospital
+1,food poisoning due to spoiled supply
+2,5 people trapped with no internet in whitefield
+2,requesting mobile recharge for 2 phones
+2,network coverage is weak in hsr
+2,no connectivity. Need help.
+2,I am not able to call helplines
+2,my phone is damaged. Requesting spare
+2,is it possible to deliver a phone in kormangla as mine is not working
+2,sim card issue. No shops open
+2,network tower broken down in whitefield
+2,calls are not connecting from airtel
+3,I want to travel back to my native place. Any help would be appreciated
+3,No nearby store open need urgent transport help.
+3,Want curfew pass for case of emergency travel.
+3,Firstline workers facing issues as no cabs are available
+3,Want to go back to my family place. Currently staying in the hotel.
+3,Want to travel from bangalore to delhi. Any means of transport available?
+3,Residing in green zone but not able to get travel permssion even for getting essential household items.
+3,Few days back my vehicle was seized by police ,now don't have any means of transport for getting groceries.
+3,my car brokedown and want it to get repaired urgently.
+3,My visa about to get expire. Want some travel arrangements to be done to fly back to Austia.
+4,I can hear voices of crying children from my neighbor. I think they are being abused.
+4,Yesterday i saw few people bullying a person from my locality.
+4,Was passing by the vathur bus stop and a group of boys teased me.. Urgently help
+4,I feel that someone is going to break in and kill me. HELP
+4,The only shop in my area is charging very high prices for items.
+4,An old man is getting abused by his family
+4,Someone is continusly following me.Feeling scared.
+4,I am not able to contact my friend from past few days. I think he might be harassed.
+4,My neighbor attempted suicide .She is in hospital right now ,urgent help needed
+4,I saw bruises on my maid face. I think she is a victim of domestic violence.

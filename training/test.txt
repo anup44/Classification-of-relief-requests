@@ -1,0 +1,10 @@
+0,Need food for diabeties patient
+0,I want bread and rice for my home
+1,arm broken need to go to hospital
+1,food poisoning by eating old distributed food
+2,network tower broken down in whitefield
+2,calls are not connecting from airtel
+3,I am a doctor, my car brokedown and want it to get repaired urgently.
+3,My visa about to get expire. Want some travel arrangements to be done to fly back to Austia.
+4,My neighbor attempted suicide .She is in hospital right now ,urgent help needed
+4,I saw bruises on my maid face. I think she is a victim of domestic violence.

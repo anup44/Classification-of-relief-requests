@@ -1,0 +1,36 @@
+{
+    "models": {
+        "en_core_web_lg": {
+            "url": "https://www.dropbox.com/s/kyowpe9hvmnt1v9/en_core_web_lg.tar.gz?dl=1",
+            "path": null,
+            "name": "en_core_web_lg.tar.gz",
+            "download_path": null,
+            "extracted_dir_name": "en_core_web_lg"
+        },
+        "tf_encoder_top_classifier": {
+            "url": "https://www.dropbox.com/s/racsk2savvcwsvw/model15.h5?dl=1",
+            "path": null,
+            "name": "model15.h5",
+            "download_path": "C:\\Users\\i509787\\.requst_classifier\\model15.h5"
+        },
+        "tf_sentence_encoder": {
+            "url": "https://storage.googleapis.com/tfhub-modules/google/universal-sentence-encoder/2.tar.gz",
+            "path": null,
+            "download_path": "C:\\Users\\i509787\\.requst_classifier\\en_core_web_sm-2.2.0.tar.gz",
+            "name": "tf_sentence_encoder.tar.gz",
+            "extracted_dir_name": "tf_sent_encoder_2"
+        },
+        "model_comb": {
+            "url": "https://www.dropbox.com/s/6r3q0ptj12bb9ar/model_comb.h5?dl=1",
+            "path": null,
+            "download_path": "C:\\Users\\i509787\\.requst_classifier\\model_comb.h5",
+            "name": "model_comb.h5"
+        },
+        "nnlm_model": {
+            "url": "https://www.dropbox.com/s/xkuirzhiq8bzjgv/model_nnlm_weights_and_architecture_1.h5?dl=1",
+            "path": null,
+            "name": "model_nnlm_weights_and_architecture_1.h5",
+            "download_path": "C:\\Users\\i509787\\.requst_classifier\\model_nnlm_weights_and_architecture_1.h5"
+        }
+    }   
+}

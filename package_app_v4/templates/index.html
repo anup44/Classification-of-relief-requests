@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--Import materialize.css-->
+        <link type="text/css" rel="stylesheet" href="{{url_for('static', filename='css/materialize.min.css')}}"  media="screen,projection"/>
+  
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <body>
+        <container>
+        <div class="row">
+            <div class="col s12">
+            <div class="row valign-wrapper">
+                <div class="input-field col s8">
+                <input name="query" id="query" type="text" class="validate" value="{{text_query}}">
+                <label for="query">Query Text</label>
+                </div>
+                <div class="col s2">
+                    <div class="valign-wrapper">
+                    <div id="multi_label_switch" class="switch">
+                        <label>
+                        Off
+                        <input id="multi_label" name="multi_label" type="checkbox" {{'checked' if checked == 'on' else ''}}>
+                        <span class="lever"></span>
+                        On
+                        </label>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s1"></div>
+                <div class="col s4" id="submit_query">
+                    <button class="btn waves-effect waves-light">Submit
+                        <i class="material-icons right">send</i>
+                    </button>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s1"></div>
+            <div class="col s10">
+                <span id="output">Class: {{out_class}}</span>
+                <span id="ajaxout"></span>
+            </div>
+        </div>
+        </container>
+        <script type="text/javascript" src="{{url_for('static', filename='js/jquery-3.5.0.min.js')}}"></script>
+        <script type="text/javascript" src="{{url_for('static', filename='js/materialize.min.js')}}"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                M.updateTextFields();
+            });
+
+            $('#submit_query').click(function(){
+                var start = new Date().getTime();
+                $('#ajaxout').text('')
+                var query_text = $('#query').val();
+                var multi_label_flag = $('#multi_label').prop('checked');
+                if($.trim(query_text != '')){
+                    $.ajax({
+                        url: "/get_category",
+                        method: "POST",
+                        data: {query: query_text, multi_label: multi_label_flag},
+                        dataType: "text",
+                        success: function(data){
+                            $('#ajaxout').text(data);
+                            console.log(new Date().getTime() - start);
+                        }
+                    });
+                }
+            });
+        </script>  
+    </body>
+</html>
